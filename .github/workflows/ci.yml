@@ -66,4 +66,4 @@ jobs:
         run: appcenter distribute release --silent --file ./GitHubActions.iOS/bin/iPhone/Release/GitHubActions.iOS.ipa --app SByteDev/GitHubActions.Xamarin-iOS --group Collaborators --token ${{ secrets.APP_CENTER_TOKEN }}
           
       - name: Upload Android app to App Center
-        run: appcenter distribute release --silent --file ./GitHubActions.Android/bin/Release/dev.sbyte.github-actions-xamarin-Signed.apk --app SByteDev/GitHubActions.Xamarin-Android --group Collaborators --token ${{ secrets.APP_CENTER_TOKEN }}
+        run: appcenter distribute release --silent --file ./GitHubActions.Android/bin/Release/dev.sbyte.github_actions_xamarin-Signed.apk --app SByteDev/GitHubActions.Xamarin-Android --group Collaborators --token ${{ secrets.APP_CENTER_TOKEN }}
